@@ -1,0 +1,11 @@
+.portLink {
+    color: yellow;
+}
+
+.portLink:hover {
+    color: yellowgreen;
+}
+
+.textun {
+    color: white;
+}
