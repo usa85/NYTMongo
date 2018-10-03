@@ -7,8 +7,7 @@ const Nav = () => (
         <i className="fa fa-newspaper-o">
           <span>
             &nbsp; <a className="portLink" href="https://www.nytimes.com/">The New York Times Connection
-            </a><br>
-            This site is about retrieving, for educational purposes only, some of the articles published by the New York Times</br>
+            </a>
         </span>
         </i>
       </strong>
