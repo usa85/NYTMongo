@@ -17,7 +17,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/nytreact");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/nytreact" || "mongodb://Pierre2:Pierre2@ds121753.mlab.com:21753/heroku_kl69bfs9");
 
 // Start the API server
 app.listen(PORT, function() {
